@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gombos oldal linkekkel</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f0f2f5;
+    }
+
+    h1 {
+      margin-bottom: 40px;
+      color: #333;
+    }
+
+    .button-container {
+      display: flex;
+      gap: 30px;
+    }
+
+    .link-button {
+      text-decoration: none;
+      padding: 15px 30px;
+      font-size: 18px;
+      border: none;
+      border-radius: 10px;
+      background-color: #4CAF50;
+      color: white;
+      display: inline-block;
+      transition: background-color 0.3s;
+    }
+
+    .link-button:hover {
+      background-color: #45a049;
+    }
+
+    .opinion {
+      background-color: #2196F3;
+    }
+
+    .opinion:hover {
+      background-color: #1976D2;
+    }
+  </style>
+</head>
+<body>
+  <h1>Válassz egy lehetőséget</h1>
+  <div class="button-container">
+    <a class="link-button" href="golyosjatek.html">Golyós játék</a>
+    <a class="link-button opinion" href="velemeny.html">Vélemény</a>
+  </div>
+</body>
+</html>
